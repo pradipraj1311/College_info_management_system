@@ -1,0 +1,312 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin: 2rem;
+}
+
+h2 {
+    color: #333;
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.message {
+    color: #dc3545;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    background: #f8d7da;
+    border-radius: 4px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #006a8e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.back-button a, .favorite-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-page {
+    text-align: center;
+}
+
+.home-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.college-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.college-btn {
+    display: block;
+    padding: 15px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.college-btn:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    background-color: #3f4a5c;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tabs a {
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tabs a.active {
+    background-color: #566278;
+    border-bottom: 3px solid #ffffff;
+}
+
+.tab-content {
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Information Tab */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.info-item {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.info-item .icon {
+    margin-right: 15px;
+    font-size: 18px;
+    min-width: 24px;
+    text-align: center;
+}
+
+.computer-info-box {
+    margin-top: 30px;
+    background-color: #f0f7fa;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.seats-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.seats-label {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.placement-link a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Tables */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.data-table th, .data-table td {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+.data-table .total-row {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.data-table .vacant {
+    color: #4caf50;
+}
+
+.note, .metadata {
+    color: #d32f2f;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .info-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .data-table {
+        font-size: 14px;
+    }
+    
+    .data-table th, .data-table td {
+        padding: 8px 4px;
+    }
+}
